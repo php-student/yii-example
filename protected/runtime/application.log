@@ -1,0 +1,216 @@
+2015/10/18 08:58:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('')
+#4 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2015/10/18 09:04:30 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getPram".' in C:\OpenServer\domains\yii-example.com\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\protected\controllers\SiteController.php(34): CComponent->__call('getPram', Array)
+#1 C:\OpenServer\domains\yii-example.com\protected\controllers\SiteController.php(34): CHttpRequest->getPram('a', 'some value a')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2015/10/18 09:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/ad
+---
+2015/10/18 09:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/ad
+---
+2015/10/18 09:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/ad
+---
+2015/10/18 09:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/ad
+---
+2015/10/18 09:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/ad
+---
+2015/10/18 09:49:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2015/10/18 10:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/index
+---
+2015/10/18 10:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/index
+---
+2015/10/18 10:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/index?cur_city=krsk
+---
+2015/10/18 10:04:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/index?cur_city=krsk
+---
+2015/10/18 10:07:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'Íîâîâèáèðñê', 55.1, 82.55),
+('krsk', 'Êðàñíîÿðñê', 56.01, 93.04),
+('brnl', 'Áàðíàóë', 53.2, 83.46),
+('tsk', 'Òîìñê', 56.29, 84.57),
+('nzsk', 'Íîâîêóçíåòñê', 53.44, 87.05);.
+2015/10/18 10:07:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'Íîâîâèáèðñê', 55.1, 82.55),
+('krsk', 'Êðàñíîÿðñê', 56.01, 93.04),
+('brnl', 'Áàðíàóë', 53.2, 83.46),
+('tsk', 'Òîìñê', 56.29, 84.57),
+('nzsk', 'Íîâîêóçíåòñê', 53.44, 87.05);' in C:\OpenServer\domains\yii-example.com\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\protected\migrations\m151018_063302_create_and_fill_table_city.php(25): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(415): m151018_063302_create_and_fill_table_city->up()
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m151018_063302_...')
+#3 [internal function]: MigrateCommand->actionUp(Array)
+#4 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#5 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CConsoleApplication->processRequest()
+#8 C:\OpenServer\domains\yii-example.com\yii\framework\yiic.php(33): CApplication->run()
+#9 C:\OpenServer\domains\yii-example.com\protected\yiic.php(7): require_once('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii-example.com\protected\yiic(4): require_once('C:\\OpenServer\\d...')
+#11 {main}
+---
+2015/10/18 10:07:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'ÐÐ¾Ð²Ð¾Ð²Ð¸Ð±Ð¸Ñ€ÑÐº', 55.1, 82.55),
+('krsk', 'ÐšÑ€Ð°ÑÐ½Ð¾ÑÑ€ÑÐº', 56.01, 93.04),
+('brnl', 'Ð‘Ð°Ñ€Ð½Ð°ÑƒÐ»', 53.2, 83.46),
+('tsk', 'Ð¢Ð¾Ð¼ÑÐº', 56.29, 84.57),
+('nzsk', 'ÐÐ¾Ð²Ð¾ÐºÑƒÐ·Ð½ÐµÑ‚ÑÐº', 53.44, 87.05);.
+2015/10/18 10:07:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'ÐÐ¾Ð²Ð¾Ð²Ð¸Ð±Ð¸Ñ€ÑÐº', 55.1, 82.55),
+('krsk', 'ÐšÑ€Ð°ÑÐ½Ð¾ÑÑ€ÑÐº', 56.01, 93.04),
+('brnl', 'Ð‘Ð°Ñ€Ð½Ð°ÑƒÐ»', 53.2, 83.46),
+('tsk', 'Ð¢Ð¾Ð¼ÑÐº', 56.29, 84.57),
+('nzsk', 'ÐÐ¾Ð²Ð¾ÐºÑƒÐ·Ð½ÐµÑ‚ÑÐº', 53.44, 87.05);' in C:\OpenServer\domains\yii-example.com\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\protected\migrations\m151018_063302_create_and_fill_table_city.php(25): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(415): m151018_063302_create_and_fill_table_city->up()
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m151018_063302_...')
+#3 [internal function]: MigrateCommand->actionUp(Array)
+#4 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#5 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CConsoleApplication->processRequest()
+#8 C:\OpenServer\domains\yii-example.com\yii\framework\yiic.php(33): CApplication->run()
+#9 C:\OpenServer\domains\yii-example.com\protected\yiic.php(7): require_once('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii-example.com\protected\yiic(4): require_once('C:\\OpenServer\\d...')
+#11 {main}
+---
+2015/10/18 10:08:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'Novosibirsk', 55.1, 82.55),
+('krsk', 'Krasnoyarsk', 56.01, 93.04),
+('brnl', 'Barnaul', 53.2, 83.46),
+('tsk', 'Tomsk', 56.29, 84.57),
+('nzsk', 'Novokuznetsk', 53.44, 87.05);.
+2015/10/18 10:08:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maorda_yii.city' doesn't exist. The SQL statement executed was: INSERT INTO `city` (`code`, `name`, `lat`, `long`) VALUES
+('nsk', 'Novosibirsk', 55.1, 82.55),
+('krsk', 'Krasnoyarsk', 56.01, 93.04),
+('brnl', 'Barnaul', 53.2, 83.46),
+('tsk', 'Tomsk', 56.29, 84.57),
+('nzsk', 'Novokuznetsk', 53.44, 87.05);' in C:\OpenServer\domains\yii-example.com\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\protected\migrations\m151018_063302_create_and_fill_table_city.php(25): CDbCommand->execute()
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(415): m151018_063302_create_and_fill_table_city->up()
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m151018_063302_...')
+#3 [internal function]: MigrateCommand->actionUp(Array)
+#4 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#5 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 C:\OpenServer\domains\yii-example.com\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CConsoleApplication->processRequest()
+#8 C:\OpenServer\domains\yii-example.com\yii\framework\yiic.php(33): CApplication->run()
+#9 C:\OpenServer\domains\yii-example.com\protected\yiic.php(7): require_once('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii-example.com\protected\yiic(4): require_once('C:\\OpenServer\\d...')
+#11 {main}
+---
+2015/10/18 10:09:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "https".' in C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii-example.com\yii\framework\web\CController.php(270): CController->missingAction('https')
+#1 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(282): CController->run('https')
+#2 C:\OpenServer\domains\yii-example.com\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('morda/https//co...')
+#3 C:\OpenServer\domains\yii-example.com\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\yii-example.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/morda/https//code.jquery.com/jquery-1.11.3.min.js
+HTTP_REFERER=http://yii-example.com/morda/index?cur_city=krsk
+---
